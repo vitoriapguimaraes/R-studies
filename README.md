@@ -1,6 +1,12 @@
 # Portfólio de Projetos: Análise de Dados em R
 Este projeto apresenta uma série de scripts em R para introdução e execução de análises de dados, abrangendo desde conceitos básicos até abordagens específicas, como análise de variância (ANOVA) e manipulação de datasets. O objetivo é fornecer uma base sólida para a exploração de dados e criação de insights úteis.
 
+## Demonstração/Visualização
+A imagem apresenta um resumo visual de uma análise de regressão realizada em R, incluindo etapas como correlação, ajuste de modelos lineares (simples e múltiplo), validação dos resíduos e comparação de modelos alternativos. Os resultados são destacados com gráficos e métricas estatísticas principais.
+<br>
+
+![Exemplo de Gráfico](https://github.com/vitoriapguimaraes/portifolio-R-DataScience/raw/main/GraficosANDScripts/4.ExemploAnaliseDataset-Apresentacao.png)
+
 ## Principais Tecnologias Utilizadas
 - Linguagem: R
 - Bibliotecas: ggplot2, dplyr
