@@ -1,34 +1,43 @@
 # Portfólio de Projetos: Análise de Dados em R
-Este repositório contém scripts em R para introdução e execução de análises de dados, abordando desde conceitos básicos até análises específicas, como análise de variância e manipulação de datasets.
+Este projeto apresenta uma série de scripts em R para introdução e execução de análises de dados, abrangendo desde conceitos básicos até abordagens específicas, como análise de variância (ANOVA) e manipulação de datasets. O objetivo é fornecer uma base sólida para a exploração de dados e criação de insights úteis.
 
-## Pré-requisitos
-Certifique-se de ter o ambiente R configurado com os seguintes pacotes:
+## Principais Tecnologias Utilizadas
+- Linguagem: R
+- Bibliotecas: ggplot2, dplyr
+
+## Estrutura do Projeto
+1. ConceitosIniciais.R: Script introdutório que aborda conceitos básicos de manipulação de dados, vetores, data frames e funções úteis.
+2. AnaliseDeVariancia.R: Realiza uma Análise de Variância (ANOVA) para identificar diferenças estatísticas significativas entre grupos.
+3. ExemploAnaliseDataset.R: Limpeza, análise descritiva e visualização inicial de um dataset específico.
+4. ExemploAnaliseDataset.R: Análise complementar ou alternativa ao script anterior, com diferentes abordagens e visualizações.
+
+## Como Executar
+1. Instale as dependências necessárias executando no R:
 ```r
 install.packages(c("ggplot2", "dplyr"))
 ```
+2. Faça o download do repositório.
+3. Abra os scripts no RStudio ou no ambiente R de sua escolha.
+4. Execute os scripts em ordem, conforme necessário, ajustando o dataset caso aplicável.
 
-## Estrutura dos Arquivos
+## Funcionalidades
+- Exploração Inicial de Dados: Ferramentas para manipulação e entendimento básico de datasets.
+- Análise Estatística: Testes de hipóteses com ANOVA.
+- Visualizações: Geração de gráficos com ggplot2 para melhor compreensão dos dados.
+- Scripts Modulares: Fáceis de personalizar e adaptar a diferentes cenários
 
-### 1-conceitos_iniciais
-- Descrição: Script introdutório que cobre conceitos básicos de análise de dados em R, incluindo manipulação de dados e estruturas fundamentais, como vetores, data frames e funções úteis para exploração inicial.
-- Conteúdo Principal: Configuração de ambiente, operações básicas e construção de data frames.
-- Executando o Script: Carregue o script e execute para entender a configuração inicial e explorar os fundamentos em R.
+## Resultados e Conclusões
+Os scripts permitem aos usuários explorar dados de forma eficaz, identificar padrões e realizar análises estatísticas robustas. A ANOVA demonstra como avaliar diferenças entre grupos, enquanto os scripts de exemplo oferecem uma abordagem prática para manipulação e visualização de dados.
 
-### 2-analise_de_variancia
-- Descrição: Script focado na execução de uma Análise de Variância (ANOVA). Este script é útil para identificar diferenças estatisticamente significativas entre grupos de dados.
-- Conteúdo Principal: Realização de testes ANOVA, interpretação dos resultados e geração de gráficos para visualização das diferenças entre os grupos.
-- Executando o Script: Carregue o dataset necessário e execute o script para realizar a ANOVA. Acompanhe as etapas de teste e análise de significância.
-  
-### 3-exemplo_analise_dataset
-- Descrição: Script de exemplo para análise de um dataset específico. Esse script realiza limpeza de dados, análise descritiva e possivelmente algumas visualizações para entender a distribuição e as relações no conjunto de dados.
-- Conteúdo Principal: Carregamento de dados, transformação e exploração inicial dos dados.
-- Executando o Script: Este scripts exemplificam uma análise mais completa de datasets. Observe as operações de limpeza, transformação e visualização aplicadas.
+## Próximos Passos/Melhorias
+- Adicionar exemplos com datasets maiores e mais variados.
+- Incluir técnicas de análise mais avançadas, como regressão e clustering.
+- Desenvolver uma interface gráfica simples para usuários menos experientes em R.
+- Expandir o projeto com tutoriais interativos para aprendizado incremental.
 
-### 4-exemplo_analise_dataset
-- Descrição: Outro exemplo de análise de dataset, com foco em operações específicas. Pode incluir etapas adicionais ou alternativas de análise, comparando abordagens ou métodos.
-- Conteúdo Principal: Análise complementar ou alternativa ao 3-exemplo_analise_dataset.R, com visualizações e manipulações adicionais.
-- Executando o Script: Este scripts exemplificam uma análise mais completa de datasets. Observe as operações de limpeza, transformação e visualização aplicadas.
+<br>
+<hr> 
 
-## Notas
-- Dependências: Alguns pacotes R como ggplot2 e dplyr são usados para visualização e manipulação de dados.
-- Modificações: Personalize o código para usar diferentes datasets ou ajustar as análises conforme necessário.
+### Currículos e Documentos
+Acesse os arquivos disponíveis na pasta 
+[![Documentos](https://img.shields.io/badge/DOCUMENTOS-%F0%9F%93%83-blue?style=flat-square)](https://github.com/vitoriapguimaraes/vitoriapguimaraes/tree/main/DOCUMENTOS) para mais informações sobre minhas qualificações e certificações.
