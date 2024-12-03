@@ -4,7 +4,7 @@
 # >>>>> Com import de data no formato CSV <<<<
 
 # Importar uma tabela de dados
-dat<-read.table("D:/vipistori/R/3-data.csv",header=TRUE,sep=";")
+dat<-read.table("D:/vipistori/R/3.data.csv",header=TRUE,sep=";")
 
 # Plotar a tabela
 dat
