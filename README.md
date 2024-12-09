@@ -13,10 +13,16 @@ A imagem apresenta um resumo visual de uma análise de regressão realizada em R
 
 ## Estrutura do Projeto
 ```
-├── ConceitosIniciais.R      # Script introdutório que aborda conceitos básicos de manipulação de dados, vetores, data frames e funções úteis.
-├── AnaliseDeVariancia.R     # Realiza uma Análise de Variância (ANOVA) para identificar diferenças estatísticas significativas entre grupos.
+├── ConceitosIniciais.R      # Script introdutório que aborda conceitos básicos de manipulação de dados,
+|                              vetores, data frames e funções úteis.
+|
+├── AnaliseDeVariancia.R     # Realiza uma Análise de Variância (ANOVA) para identificar diferenças
+|                              estatísticas significativas entre grupos.
+|
 ├── ExemploAnaliseDataset.R  # Limpeza, análise descritiva e visualização inicial de um dataset específico.
-└── ExemploAnaliseDataset.R  # Análise complementar ou alternativa ao script anterior, com diferentes abordagens e visualizações.
+|
+└── ExemploAnaliseDataset.R  # Análise complementar ou alternativa ao script anterior, com diferentes
+                               abordagens e visualizações.
 ```
 
 ## Como Executar
