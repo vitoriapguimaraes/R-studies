@@ -27,11 +27,14 @@ A imagem apresenta um resumo visual de uma análise de regressão realizada em R
 
 ## Como Executar
 1. Instale as dependências necessárias executando no R:
-```r
-install.packages(c("ggplot2", "dplyr"))
-```
+    ```r
+    install.packages(c("ggplot2", "dplyr"))
+    ```
+    
 2. Faça o download do repositório.
+
 3. Abra os scripts no RStudio ou no ambiente R de sua escolha.
+
 4. Execute os scripts em ordem, conforme necessário, ajustando o dataset caso aplicável.
 
 ## Funcionalidades
