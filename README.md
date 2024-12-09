@@ -12,10 +12,12 @@ A imagem apresenta um resumo visual de uma análise de regressão realizada em R
 - Bibliotecas: ggplot2, dplyr
 
 ## Estrutura do Projeto
-1. ConceitosIniciais.R: Script introdutório que aborda conceitos básicos de manipulação de dados, vetores, data frames e funções úteis.
-2. AnaliseDeVariancia.R: Realiza uma Análise de Variância (ANOVA) para identificar diferenças estatísticas significativas entre grupos.
-3. ExemploAnaliseDataset.R: Limpeza, análise descritiva e visualização inicial de um dataset específico.
-4. ExemploAnaliseDataset.R: Análise complementar ou alternativa ao script anterior, com diferentes abordagens e visualizações.
+```
+├── ConceitosIniciais.R      # Script introdutório que aborda conceitos básicos de manipulação de dados, vetores, data frames e funções úteis.
+├── AnaliseDeVariancia.R     # Realiza uma Análise de Variância (ANOVA) para identificar diferenças estatísticas significativas entre grupos.
+├── ExemploAnaliseDataset.R  # Limpeza, análise descritiva e visualização inicial de um dataset específico.
+└── ExemploAnaliseDataset.R  # Análise complementar ou alternativa ao script anterior, com diferentes abordagens e visualizações.
+```
 
 ## Como Executar
 1. Instale as dependências necessárias executando no R:
