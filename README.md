@@ -1,60 +1,62 @@
-# Portfólio de Projetos: Análise de Dados em R
-Este projeto apresenta uma série de scripts em R para introdução e execução de análises de dados, abrangendo desde conceitos básicos até abordagens específicas, como análise de variância (ANOVA) e manipulação de datasets. O objetivo é fornecer uma base sólida para a exploração de dados e criação de insights úteis.
+# Portfólio: Análise de Dados em R
 
-## Demonstração/Visualização
-A imagem apresenta um resumo visual de uma análise de regressão realizada em R, incluindo etapas como correlação, ajuste de modelos lineares (simples e múltiplo), validação dos resíduos e comparação de modelos alternativos. Os resultados são destacados com gráficos e métricas estatísticas principais.
-<br>
+> Projeto para introdução e prática de análise de dados com R, incluindo manipulação de datasets, visualizações estatísticas e testes de hipóteses. Ideal para quem deseja aprender ou revisar conceitos fundamentais de Data Science com exemplos práticos.
 
-![Exemplo de Gráfico](https://github.com/vitoriapguimaraes/portifolio-R-DataScience/raw/main/GraficosANDScripts/4.ExemploAnaliseDataset-Apresentacao.png)
+![Exemplo de Gráfico](https://github.com/vitoriapguimaraes/portifolio-R-DataScience/raw/main/results/3-exemplo_analise_dataset_display.png)
 
-## Principais Tecnologias Utilizadas
-- Linguagem: R
-- Bibliotecas: ggplot2, dplyr
+## Funcionalidades Principais
 
-## Estrutura do Projeto
-```
-├── ConceitosIniciais.R      # Script introdutório que aborda conceitos básicos de manipulação de dados,
-|                              vetores, data frames e funções úteis.
-|
-├── AnaliseDeVariancia.R     # Realiza uma Análise de Variância (ANOVA) para identificar diferenças
-|                              estatísticas significativas entre grupos.
-|
-├── ExemploAnaliseDataset.R  # Limpeza, análise descritiva e visualização inicial de um dataset específico.
-|
-└── ExemploAnaliseDataset.R  # Análise complementar ou alternativa ao script anterior, com diferentes
-                               abordagens e visualizações.
-```
+- Exploração inicial de dados: manipulação, visualização e sumarização de datasets.
+- Análise estatística: ANOVA, teste t, teste de normalidade e comparação de grupos.
+- Visualizações: boxplot, barplot, histogramas, diagramas de dispersão e gráficos com ggplot2.
+- Scripts modulares e comentados para fácil adaptação.
+
+## Tecnologias Utilizadas
+
+- R
+- ggplot2
+- dplyr
 
 ## Como Executar
-1. Instale as dependências necessárias executando no R:
-    ```r
-    install.packages(c("ggplot2", "dplyr"))
-    ```
-    
-2. Faça o download do repositório.
 
-3. Abra os scripts no RStudio ou no ambiente R de sua escolha.
+1. Clone o repositório:
+   ```
+   git clone https://github.com/vitoriapguimaraes/R-dataScience_studies.git
+   ```
+2. Instale as dependências no R:
+   ```r
+   install.packages(c("ggplot2", "dplyr"))
+   ```
+3. Abra os scripts no RStudio ou outro ambiente R.
+4. Execute os scripts na ordem desejada, ajustando o dataset conforme necessário.
 
-4. Execute os scripts em ordem, conforme necessário, ajustando o dataset caso aplicável.
+## Como Usar
 
-## Funcionalidades
-- Exploração Inicial de Dados: Ferramentas para manipulação e entendimento básico de datasets.
-- Análise Estatística: Testes de hipóteses com ANOVA.
-- Visualizações: Geração de gráficos com ggplot2 para melhor compreensão dos dados.
-- Scripts Modulares: Fáceis de personalizar e adaptar a diferentes cenários
+- Abra o script desejado na pasta `scripts/`.
+- Execute os blocos de código para visualizar tabelas, gráficos e resultados estatísticos.
+- Modifique os parâmetros e datasets para testar diferentes cenários.
+- Consulte os arquivos em `results/` para exemplos de gráficos gerados.
+
+## Estrutura de Diretórios
+
+```
+/R-dataScience_studies
+├── dataset/           # Arquivos de dados (CSV)
+├── scripts/           # Scripts R para análise e visualização
+├── results/           # Gráficos e relatórios gerados
+└── README.md
+```
+
+## Status
+
+✅ Concluído
+
+> Veja as [issues abertas](https://github.com/vitoriapguimaraes/R-dataScience_studies/issues) para sugestões de melhorias e próximos passos.
 
 ## Resultados e Conclusões
-Os scripts permitem aos usuários explorar dados de forma eficaz, identificar padrões e realizar análises estatísticas robustas. A ANOVA demonstra como avaliar diferenças entre grupos, enquanto os scripts de exemplo oferecem uma abordagem prática para manipulação e visualização de dados.
 
-## Próximos Passos/Melhorias
-- Adicionar exemplos com datasets maiores e mais variados.
-- Incluir técnicas de análise mais avançadas, como regressão e clustering.
-- Desenvolver uma interface gráfica simples para usuários menos experientes em R.
-- Expandir o projeto com tutoriais interativos para aprendizado incremental.
+Os scripts permitem explorar dados, identificar padrões e realizar análises estatísticas robustas. A ANOVA e os testes estatísticos mostram como comparar grupos e validar hipóteses. As visualizações facilitam a interpretação dos resultados.
 
-<br>
-<hr> 
+## Mais Sobre Mim
 
-### Currículos e Documentos
-Acesse os arquivos disponíveis na pasta 
-[![Documentos](https://img.shields.io/badge/DOCUMENTOS-%F0%9F%93%83-blue?style=flat-square)](https://github.com/vitoriapguimaraes/vitoriapguimaraes/tree/main/DOCUMENTOS) para mais informações sobre minhas qualificações e certificações.
+Acesse os arquivos disponíveis na [Pasta Documentos](https://github.com/vitoriapguimaraes/vitoriapguimaraes/tree/main/DOCUMENTOS) para mais informações sobre minhas qualificações e certificações.

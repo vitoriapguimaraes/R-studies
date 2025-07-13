@@ -3,40 +3,41 @@
 # >>>> Escrevendo principais conceitos/comandos <<<<
 
 # Atribuição de valores
-a=10
-a
-a<-20
-a
+a <- 10
+a  # imprime valor de a
+a <- 20
+a  # imprime novo valor de a
 
 # Limpando a memória 
-rm(list=ls())
-# Teste
-a
+rm(list = ls())  # remove todos os objetos
+# Teste: a não existe mais
+a  # irá gerar erro pois a foi removido
 
 # Operações básicas 
-10-20 
-10+20
-10/20
-0.5*10
-x<-10
-x^2+2*x-500
+10 - 20
+10 + 20
+10 / 20
+0.5 * 10
+x <- 10
+x^2 + 2 * x - 500
 
 # Especificando funções
-# Definindo
-quad<-function(x,a,b,c){a*x^2+b*x+c}
-# Avaliando
-quad(30,1,3,10)
+quad <- function(x, a, b, c) {
+  a * x^2 + b * x + c
+}
+# Avaliando função quadrática
+quad(30, 1, 3, 10)
 
 # Vetores 
-x=c(1,"a",0.5,"nome",5,6)
-x
+vetor <- c(1, "a", 0.5, "nome", 5, 6)
+vetor
 
 # Matrizes
-y=matrix(c(1,4,3,4,3,6,7,1,9),nr=3)
-y
-det(y)
-# Inversão
-solve(y)
+matriz <- matrix(c(1, 4, 3, 4, 3, 6, 7, 1, 9), nrow = 3)
+matriz
+det(matriz)
+# Inversão de matriz
+solve(matriz)
 
 # Gráfico da função
 x=c(1,2,3,4,5,6,7,8,9,10)
