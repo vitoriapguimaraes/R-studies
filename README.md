@@ -20,13 +20,17 @@
 ## Como Executar
 
 1. Clone o repositório:
-   ```
+
+   ```dash
    git clone https://github.com/vitoriapguimaraes/R-dataScience_studies.git
    ```
+
 2. Instale as dependências no R:
+
    ```r
    install.packages(c("ggplot2", "dplyr"))
    ```
+
 3. Abra os scripts no RStudio ou outro ambiente R.
 4. Execute os scripts na ordem desejada, ajustando o dataset conforme necessário.
 
@@ -39,7 +43,7 @@
 
 ## Estrutura de Diretórios
 
-```
+```dash
 /R-dataScience_studies
 ├── dataset/           # Arquivos de dados (CSV)
 ├── scripts/           # Scripts R para análise e visualização
